@@ -6,10 +6,10 @@
   const HEADER_HTML = `
 <header id="site-header" role="banner">
   <div class="header-inner">
-    <a href="index.html" class="site-logo" aria-label="아고다 할인코드 홈">
-      <div class="logo-icon" aria-hidden="true">A</div>
+    <a href="index.html" class="site-logo" aria-label="트립닷컴 할인코드 홈">
+      <div class="logo-icon" aria-hidden="true">T</div>
       <div class="logo-text">
-        아고다 할인코드
+        트립닷컴 할인코드
         <span class="logo-sub">최대 할인 정보 총정리</span>
       </div>
     </a>
@@ -77,8 +77,8 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <div class="logo-text">아고다 할인코드</div>
-        <p>아고다 할인코드, 쿠폰, 프로모션 코드를 한 곳에서 총정리합니다. 매월 최신 코드를 업데이트하며, 적용 방법부터 오류 해결까지 모든 정보를 제공합니다.</p>
+        <div class="logo-text">트립닷컴 할인코드</div>
+        <p>트립닷컴 할인코드, 쿠폰, 프로모션 코드를 한 곳에서 총정리합니다. 매월 최신 코드를 업데이트하며, 적용 방법부터 오류 해결까지 모든 정보를 제공합니다.</p>
         <p class="text-small" style="color:rgba(255,255,255,0.4);margin-top:12px;">※ 본 사이트는 아고다 제휴 파트너 사이트입니다.</p>
       </div>
       <div class="footer-col">
@@ -113,8 +113,8 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 아고다 할인코드. All rights reserved.</span>
-      <span>최종 업데이트: 2026년 7월 | 매월 업데이트</span>
+      <span>© 2026 트립닷컴 할인코드. All rights reserved.</span>
+      <span>최종 업데이트: 2026년 8월 | 매월 업데이트</span>
     </div>
   </div>
 </footer>
