@@ -114,7 +114,7 @@
     </div>
     <div class="footer-bottom">
       <span>© 2026 트립닷컴 할인코드. All rights reserved.</span>
-      <span>최종 업데이트: 2026년 8월 | 매월 업데이트</span>
+      <span>최종 업데이트: 2026년 9월 | 매월 업데이트</span>
     </div>
   </div>
 </footer>
