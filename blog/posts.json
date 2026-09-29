@@ -3,6 +3,14 @@
   "siteName": "트립닷컴 쿠폰",
   "baseUrl": "https://trip.snack-test.com",
   "postUrlPattern": "/blog/{slug}/",
-  "updated": "2026-09-23",
-  "posts": []
+  "updated": "2026-09-29",
+  "posts": [
+    {
+      "title": "트립닷컴 쿠폰 항공권 적용법과 적용 안 되는 요금 정리",
+      "slug": "trip-com-coupon-flight-ticket-apply-guide",
+      "date": "2026-09-29",
+      "description": "트립닷컴 쿠폰을 항공권 예약 결제 화면에서 적용하는 방법과, 쿠폰이 적용되지 않는 특가·프로모션 요금 유형, 할인코드 목록까지 함께 정리했습니다.",
+      "image": ""
+    }
+  ]
 }
