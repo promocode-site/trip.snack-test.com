@@ -52,13 +52,15 @@ document.addEventListener('DOMContentLoaded', function () {
   var affiliateLink = 'http://app.ac/bbMm1Dl33';
   document.querySelectorAll('.copy-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
+      window.open(affiliateLink, '_blank', 'noopener,noreferrer');
       var code = btn.getAttribute('data-code') || btn.previousElementSibling?.textContent?.trim();
       if (code) {
-        navigator.clipboard.writeText(code).then(function () {
+        Promise.resolve().then(function () {
+          return navigator.clipboard.writeText(code);
+        }).then(function () {
           var original = btn.textContent;
           btn.textContent = '✓ 복사됨';
           btn.classList.add('copied');
-          window.open(affiliateLink, '_blank', 'noopener,noreferrer');
           setTimeout(function () {
             btn.textContent = original;
             btn.classList.remove('copied');
@@ -73,7 +75,6 @@ document.addEventListener('DOMContentLoaded', function () {
           var original = btn.textContent;
           btn.textContent = '✓ 복사됨';
           btn.classList.add('copied');
-          window.open(affiliateLink, '_blank', 'noopener,noreferrer');
           setTimeout(function () {
             btn.textContent = original;
             btn.classList.remove('copied');
