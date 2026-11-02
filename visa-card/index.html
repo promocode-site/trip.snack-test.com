@@ -1351,7 +1351,7 @@ ol.steps { list-style: none; padding-left: 0; }
       <h2 id="s-cond">비자카드 할인 적용 조건</h2>
       <p>발급사와 상관없이 비자 브랜드 카드이고, 달러로 결제하면 상품별 할인코드를 쓸 수 있습니다.</p>
     </div>
-    <img src="images/%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4-%EB%B9%84%EC%9E%90%EC%B9%B4%EB%93%9C-%ED%95%A0%EC%9D%B8.png" width="250" height="250" alt="트립닷컴 비자카드 할인" loading="lazy" style="display:block;width:100%;max-width:250px;height:auto;aspect-ratio:1/1;object-fit:cover;margin:0 auto 24px">
+    <img src="/visa-card/images/%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4-%EB%B9%84%EC%9E%90%EC%B9%B4%EB%93%9C-%ED%95%A0%EC%9D%B8.png" width="250" height="250" alt="트립닷컴 비자카드 할인" loading="lazy" style="display:block;width:100%;max-width:250px;height:auto;aspect-ratio:1/1;object-fit:cover;margin:0 auto 24px">
     <div class="card-grid">
       <article class="coupon-card">
         <div class="coupon-card-header">
@@ -1369,7 +1369,7 @@ ol.steps { list-style: none; padding-left: 0; }
             <span class="coupon-tag warning">비자카드</span>
             <span class="coupon-tag danger">예산 소진 시 종료</span>
           </div>
-          <p class="text-small text-gray">전 세계 호텔 예약에 붙습니다. 일부 객실은 제외됩니다.</p>
+          <p class="text-small text-gray">온라인 사전결제 호텔에 적용됩니다. 일부 객실은 제외됩니다.</p>
           <a href="http://app.ac/bbMm1Dl33" target="_blank" rel="nofollow sponsored noopener" class="btn btn-primary btn-block mt-2">할인코드 발급</a>
         </div>
       </article>
@@ -1389,7 +1389,7 @@ ol.steps { list-style: none; padding-left: 0; }
             <span class="coupon-tag warning">비자카드</span>
             <span class="coupon-tag danger">일부 노선 제외</span>
           </div>
-          <p class="text-small text-gray">할인율은 가장 낮지만 항공 운임이 커서 절약액은 호텔과 비슷해집니다.</p>
+          <p class="text-small text-gray">세금·유류세를 제외한 순수 운임의 3%를 할인합니다. 일부 노선은 제외됩니다.</p>
           <a href="http://app.ac/bbMm1Dl33" target="_blank" rel="nofollow sponsored noopener" class="btn btn-primary btn-block mt-2">할인코드 발급</a>
         </div>
       </article>
@@ -1421,7 +1421,7 @@ ol.steps { list-style: none; padding-left: 0; }
       <dt>최소 결제 금액</dt><dd>표기 없음</dd>
       <dt>할인 한도</dt><dd>표기 없음</dd>
       <dt>예약 기간</dt><dd>2026년 12월 31일까지</dd>
-      <dt>숙박·탑승·이용 기간</dt><dd>2027년 3월 31일까지</dd>
+      <dt>숙박·탑승·이용 기간</dt><dd>호텔 숙박 기한 제한 없음 · 항공 출발 2027년 12월 31일까지 · 액티비티 지정 이용일</dd>
     </dl>
   </div>
 </section>
@@ -1481,7 +1481,7 @@ ol.steps { list-style: none; padding-left: 0; }
     <div class="section-title">
       <span class="title-badge">절약 계산</span>
       <h2 id="s-calc">상품별 절약액 계산</h2>
-      <p>한도와 최소 결제 금액이 없어서 결제 금액에 할인율을 그대로 곱하면 됩니다.</p>
+      <p>최소 결제 금액과 한도는 미표기입니다. 예시는 금액 전체가 할인 대상이고 한도에 걸리지 않을 때의 원화 상당액입니다. 실제 USD 환산·카드 수수료는 별도이며 항공 세금·유류세는 할인 대상에서 제외합니다.</p>
     </div>
     <div class="calc-grid">
       <div class="calc-card">
@@ -1491,10 +1491,10 @@ ol.steps { list-style: none; padding-left: 0; }
         <div class="calc-save">18,000원 절약</div>
       </div>
       <div class="calc-card">
-        <h3>항공권 400,000원</h3>
+        <h3>항공 순수 운임 400,000원 상당</h3>
         <div class="calc-row"><span>항공권 3% 할인</span><span>-12,000원</span></div>
         <div class="calc-row total"><span>할인 후 금액</span><span>388,000원</span></div>
-        <div class="calc-save">12,000원 절약</div>
+        <div class="calc-save">12,000원 상당 할인 · 세금·유류세 별도</div>
       </div>
       <div class="calc-card">
         <h3>액티비티 100,000원</h3>
@@ -1506,7 +1506,7 @@ ol.steps { list-style: none; padding-left: 0; }
     <div class="highlight-box mt-4">
       <h3>실제 절약액 공식</h3>
       <ul>
-        <li><strong>실제 절약액</strong> = 결제 금액 × 할인율 − 결제 금액 × 카드사 해외이용수수료율</li>
+        <li><strong>실제 청구액</strong> = 할인 후 USD 거래액 × 카드사 적용 환율 + 국제브랜드·카드사 해외이용수수료입니다. 할인액은 할인 대상 금액과 실제 적용 한도로 계산합니다.</li>
         <li>수수료율은 카드사마다 달라서 결제 전에 보유 카드의 해외이용수수료를 확인하세요.</li>
       </ul>
     </div>
@@ -1536,7 +1536,7 @@ ol.steps { list-style: none; padding-left: 0; }
     <h3 class="mt-4">중복 적용 규칙</h3>
     <div class="combo-box mt-2">
       <h4>할인코드는 예약당 하나</h4>
-      <p>비자 할인코드를 넣으면 다른 할인코드와 쿠폰은 같은 예약에 함께 쓸 수 없습니다. 어느 쪽이 더 많이 깎이는지 요금 요약에서 비교한 뒤 고르세요.</p>
+      <p>비자 할인코드는 다른 프로모션·할인코드·트립코인과 중복되지 않습니다. 어느 쪽이 더 많이 깎이는지 요금 요약에서 비교한 뒤 고르세요.</p>
     </div>
   </div>
 </section>
@@ -1550,7 +1550,7 @@ ol.steps { list-style: none; padding-left: 0; }
     </div>
     <div class="alert alert-warning">
       <span class="alert-icon" aria-hidden="true">⚠️</span>
-      <div><strong>해외이용수수료:</strong> 달러 결제에는 카드사 해외이용수수료가 붙습니다. 실제 할인은 할인율에서 수수료율을 뺀 만큼입니다.</div>
+      <div><strong>해외이용수수료:</strong> 실제 청구액은 할인 후 거래액, 발급사 적용 환율과 해외이용수수료로 결정됩니다. 수수료 면제 여부도 보유 카드에서 확인하세요.</div>
     </div>
     <div class="alert alert-warning">
       <span class="alert-icon" aria-hidden="true">⏳</span>
